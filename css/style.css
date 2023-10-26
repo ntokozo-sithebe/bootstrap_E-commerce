@@ -9,3 +9,10 @@
 img[alt="logo"]{
     width: 10rem;
 }
+body{
+    text-align: center;
+}
+/*card*/
+#products, :is card{
+    width: 18rem;
+}
