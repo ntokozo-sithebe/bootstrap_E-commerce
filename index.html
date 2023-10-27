@@ -166,7 +166,7 @@
                                               </div>
                                             </div>
                                             <div class="card shadow rounded-2">
-                                                <img src="https://media.nastygal.com/i/nastygal/agg06443_black_xl_2/black-slim-almond-frame-trousersher-detail-sunglasses" class="card-img-top img-fluid img-thumbnail" alt="laptop 3">
+                                                <img src="https://media.nastygal.com/i/nastygal/agg06443_black_xl_2/black-slim-almond-frame-trousersher-detail-sunglasses" class="card-img-top img-fluid img-thumbnail" alt="sunnies 3">
                                                 <div class="card-body">
                                                <h5 class="card-title">C-You</h5>
                                                   <p class="card-text">A mirror reflection of who you are</p>
@@ -252,7 +252,116 @@
           </div>
 
         </section>
-        <section class="container">
+        <section class="container" id="Admin">
+          <div class="row">
+            <h3 class="display-3">Admin</h3>
+        </div>
+        <div class="row my-3">
+            <div class="col">
+                <button class="btn btn-outline-success float-start">Sort</button>
+            </div>
+            <div class="col">
+                <select class="form-select" aria-label="Default" name="filterProduct" id="filterProduct">
+                    <option selected value="prodName">Product Name</option>
+                    <option value="prodPrice">Product Price</option>
+                </select>
+            </div>
+        </div>
+        <div class="row my3">
+            <div class="admin-table">
+                <table class="table responsive table-hover">
+                    <thead>
+                        <tr class="table-success">
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Image</th>
+                            <th>Price</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Red See
+                            </td>
+                            <td>
+                               Colors range in Red, Black and White
+                            </td>
+                            <td>
+                                <img src="https://image.lensmartonline.com/2021-11-09/16364219836459.jpg?imageView2/2/interlace/1/ignore-error/1/format/webp/w/1200" class="img-fluid w-25" alt="Laptop 1">
+                            </td>
+                            <td>
+                                R8, 700
+                            </td>
+                            <td>
+                                Pay
+                            </td>
+                            <td>
+                                <i class="bi bi-pencil-square" data-bs-toggle="modal" data-bs-target="#editProduct1"></i>
+                                <div class="modal fade" id="editProduct1" tabindex="-1" aria-labelledby="editProduct1Label" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h1 class="modal-title fs-5" id="editProduct1Label">Edit Product</h1>
+                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                          Make use of a form 
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <i class="bi bi-trash3-fill"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Classic Lady
+                            </td>
+                            <td>
+                                Comes in transparent white,black and blue
+                            </td>
+                            <td>
+                                <img src="https://cdn.media.amplience.net/i/mrpricegroup/01_102045698_SI_00" class="img-fluid w-25" alt="sunnies 1">
+                            </td>
+                            <td>
+                                R6,800
+                            </td>
+                            <td>
+                                Pay
+                            </td>
+                            <td>
+                                <i class="bi bi-pencil-square" data-bs-toggle="modal" data-bs-target="#editProduct2"></i>
+                                <div class="modal fade" id="editProduct2" tabindex="-1" aria-labelledby="editProduct2Label" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h1 class="modal-title fs-5" id="editProduct2Label">Edit Product</h1>
+                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                          Make use of a form (Product 2)
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <i class="bi bi-trash3-fill"></i>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</main>
 
         </section>
 
